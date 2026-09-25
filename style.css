@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f1e5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Intestazione */
+header {
+    background-color: #b22222;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Contenuto principale */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Sezioni */
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #b22222;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e0a800;
+    padding-bottom: 8px;
+}
+
+section h3 {
+    color: #444;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Lista del menu */
+ul {
+    list-style: none;
+}
+
+li {
+    background-color: #f9f3e8;
+    margin-bottom: 8px;
+    padding: 10px 15px;
+    border-left: 4px solid #e0a800;
+    border-radius: 5px;
+}
+
+/* Contatti */
+#contatti p {
+    margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 32px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    main {
+        padding: 0 10px;
+    }
+}
