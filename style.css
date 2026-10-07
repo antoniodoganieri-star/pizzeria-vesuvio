@@ -117,3 +117,33 @@ footer {
     transform: translateX(5px);
     transition: 0.3s;
 }
+/* Menu bibite */
+
+h2 {
+    color: #333;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li:hover {
+    background-color: #ddd;
+}
